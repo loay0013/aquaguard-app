@@ -36,14 +36,14 @@
 			</div>
 
 			<div class="col-12 p-0">
-				<ul class="nav nav-pills nav-justified m-0" id="ex1" role="tablist">
+				<ul class="nav nav-pills nav-justified m-0 pt-4" id="ex1" role="tablist">
 					<li class="nav-item" role="presentation">
 						<a class="nav-link-1 active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
-						   aria-controls="pills-login" aria-selected="true">Login</a>
+						   aria-controls="pills-login" aria-selected="true">Opret bruger</a>
 					</li>
 					<li class="nav-item" role="presentation">
 						<a class="nav-link-2 active" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab"
-						   aria-controls="pills-register" aria-selected="false">Register</a>
+						   aria-controls="pills-register" aria-selected="false">Log ind</a>
 					</li>
 				</ul>
 			</div>

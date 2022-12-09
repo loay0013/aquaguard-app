@@ -48,6 +48,9 @@ img {
 	text-decoration: none;
 	color: white;
 	border-radius: 10px 0 0 10px;
+	-webkit-transition: ease-out 0.4s;
+	-moz-transition: ease-out 0.4s;
+	transition: ease-out 0.4s;
 }
 
 .nav-link-2 {
@@ -60,7 +63,20 @@ img {
 	text-decoration: none;
 	color: white;
 	border-radius: 0 10px 10px 0;
+	-webkit-transition: ease-out 0.4s;
+	-moz-transition: ease-out 0.4s;
+	transition: ease-out 0.4s;
 }
-.nav-link-1:focus {
-	border-color: #2898a7;
+
+.nav-link-1:hover {
+	box-shadow: inset 0 0 0 400px #00d1ff;
+	color: white;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.nav-link-2:hover {
+	box-shadow: inset 0 0 0 400px rgb(0, 60, 93);
+	color: white;
+	font-size: 16px;
 }
