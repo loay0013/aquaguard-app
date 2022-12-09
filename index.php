@@ -28,7 +28,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<section class="">
+<section>
 	<div class="background-welcome d-flex align-items-center justify-content-center">
 		<div class="row gap-5 mx-3 d-flex justify-content-center">
 			<div class="col-12 p-0">
@@ -36,7 +36,7 @@
 			</div>
 
 			<div class="col-12 p-0">
-				<ul class="nav nav-pills nav-justified m-0" id="ex1" role="tablist">
+				<ul class="nav nav-pills nav-justified m-0 pt-4" id="ex1" role="tablist">
 					<li class="nav-item" role="presentation">
 						<a class="nav-link-1 active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
 						   aria-controls="pills-login" aria-selected="true">Login</a>

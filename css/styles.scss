@@ -1,5 +1,9 @@
+
+
+
 * {
 	box-sizing: border-box;
+	font-family: Inter, sans-serif;
 }
 
 body {
@@ -31,6 +35,8 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+/* Velkommen-side til Aquaguard */
 
 .background-welcome {
 	width: 100%;
@@ -79,4 +85,23 @@ img {
 	box-shadow: inset 0 0 0 400px rgb(0, 60, 93);
 	color: white;
 	font-size: 16px;
+	font-weight: 500;
+}
+
+.form-control {
+	height: 55px !important;
+	border: none !important;
+	border-radius: 12px !important;
+	padding-left: 18px !important;
+}
+
+.input-password {
+	font-size: 14px;
+	text-decoration: none;
+	color: #0B0606;
+	letter-spacing: 0.2px;
+}
+
+.input-password:hover {
+	color: #28ABE2;
 }
