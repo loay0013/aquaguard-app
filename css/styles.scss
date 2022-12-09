@@ -31,3 +31,36 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+.background-welcome {
+	width: 100%;
+	height: 736px;
+	background-color: #F2F2F2;
+}
+
+.nav-link-1 {
+	width: 100%;
+	height: 50px;
+	background-color: #28ABE2;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 10px 0 0 10px;
+}
+
+.nav-link-2 {
+	width: 100%;
+	height: 50px;
+	background-color: #1A1A1A;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 0 10px 10px 0;
+}
+.nav-link-1:focus {
+	border-color: #2898a7;
+}
