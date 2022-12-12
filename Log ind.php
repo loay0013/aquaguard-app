@@ -71,6 +71,7 @@
 					</div>
 					<div class="col-4">
 						<img src="images/fb-logo.svg" alt="">
+
 					</div>
 				</div>
 
