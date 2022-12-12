@@ -27,6 +27,7 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body class="h-100">
+
 <!-- Her skal sidens indhold ligge -->
 <section class="background-welcome h-100">
 
