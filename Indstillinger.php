@@ -40,6 +40,12 @@
             </a>
             </div>
             <div class="d-flex justify-content-center">
+                <a href="Tilføj%20filter.php" class="bg-light rounded-3 d-flex flex-row w-95 p-3">
+                    <img src="images/Wifi%202.svg">
+                    <p class="text-dark ms-4">Tilføj filter</p>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
             <a class="bg-light rounded-3 d-flex flex-row w-95 p-3">
                 <img src="images/Icon%20ionic-ios-notifications.svg">
                 <p class="text-dark ms-4">Notifikationer</p>
