@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
-<html lang="da">
+<html class="h-100" lang="da">
 
 <!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>indstillinger</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -18,6 +18,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -25,9 +26,168 @@
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
-<body>
+<body class="h-100">
 
 <!-- Her skal sidens indhold ligge -->
+<section class="background-welcome h-100">
+
+    <div class="h-100 d-flex flex-column">
+        <div class="d-flex gap-3 flex-column mt-4">
+            <div class="d-flex justify-content-center">
+            <a class="bg-light rounded-3 d-flex flex-row w-95 p-3">
+                <img src="images/Icon%20awesome-users-cog.svg">
+                <p class="text-dark ms-4">Kontooplysninger </p>
+            </a>
+            </div>
+            <div class="d-flex justify-content-center">
+            <a class="bg-light rounded-3 d-flex flex-row w-95 p-3">
+                <img src="images/Icon%20ionic-ios-notifications.svg">
+                <p class="text-dark ms-4">Notifikationer</p>
+            </a>
+            </div>
+            <div class="d-flex justify-content-center">
+
+                <!--Modal 1-->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Velkommen til Aquaguard</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                nden du kan måle dit vandforbrug,
+                                skal du forbinde dit Aquaguard-filter
+                                til appen.
+                            </div>
+                            <div class="modal-footer border-0 justify-content-center">
+                                <button class="btn btn-btn-p d-flex text-light px-5" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Videre</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal 2-->
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header flex-column border-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-title" id="exampleModalToggleLabel2">
+                                   <img src="images/Group%20Modal1.svg">
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    1. Skru dit nuværende filter af vandhanen/
+                                    brusehovedet.<br><br>
+                                    2. Skru dit filter fra Aquaguard på din
+                                    vandhane/bruser.
+                                </p>
+                            </div>
+                            <div class="modal-footer border-0 justify-content-center">
+                                <button class="btn btn-btn-p text-light" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Tilbage</button>
+                                <button class="btn btn-btn-p text-light" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Videre</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal 3-->
+                <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header flex-column border-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-title" id="exampleModalToggleLabel3">
+                                    <img src="images/Layer%20Modal%202.svg">
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                1. Tryk på dråbe-ikonet i bunden af
+                                appen.<br><br>
+                                2. Stå max 1 meter fra vandhanen/
+                                brusehovedet.<br><br>
+                                3. Tryk "Tilføj filter".
+                            </div>
+                            <div class="modal-footer border-0 justify-content-center">
+                                <button class="btn btn-btn-p text-light" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Tilbage</button>
+                                <button class="btn btn-btn-p text-light" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Videre</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal 4-->
+                <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header border-0 flex-column">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-title" id="exampleModalToggleLabel4">
+                                  <img src="images/Group%20Modal%203.svg">
+                                </div>
+                            </div>
+                            <div class="modal-body ">
+                                Dit filter er nu klar til at måle dit
+                                vandforbrug fra den vandhane/bruser.
+                                Hvis du vil tilføje flere filtre, gentager du
+                                processen.
+                            </div>
+                            <div class="modal-footer border-0 justify-content-center">
+                                <button class="btn px-5 btn-btn-p text-light" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal">Kom i gang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal 5-->
+                <div class="modal fade" id="exampleModalToggle5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel5" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <h5 class="modal-title" id="exampleModalToggleLabel5">
+                                    Dit filter blev tilføjet
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Du kan nu se vandforbruget fra
+                                denne enhed i din oversigt.
+                            </div>
+                            <div class="modal-footer border-0 justify-content-center">
+                                <button type="button" class="btn btn-btn-p text-light px-5" data-bs-dismiss="modal">Okay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--btn Modal-->
+                <a class="bg-light rounded-3 d-flex flex-row w-95 p-3" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+                    <img src="images/info-square-fill.svg">
+                    <p class="text-dark ms-4">Vejledninger</p>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+            <a class="bg-light rounded-3 d-flex flex-row w-95 p-3">
+                <img src="images/moon-stars-fill.svg">
+                <p class="text-dark ms-4">Dark-mode</p>
+            </a>
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-center mt-7">
+            <a class="bg-dark rounded-3 d-flex flex-row w-95 p-3 justify-content-center">
+                <p class="text-light ">Log ud</p>
+            </a>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<?php include "includes/nav.php"; ?>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 </html>
