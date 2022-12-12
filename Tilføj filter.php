@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
-<html lang="da">
+<html class="h-100"  lang="da">
 
 <!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>tilføj filter</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -18,6 +18,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -25,9 +26,25 @@
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
-<body>
+<body class="h-100" >
+<section class="gx-3 background-welcome rounded-4 h-100">
+    <div class="d-flex justify-content-center align-items-center flex-column h-100 ">
+        <div>
+            <img class="mb-5" src="images/Wifi.svg"
+        </div>
 
-<!-- Her skal sidens indhold ligge -->
+        <div>
+
+            <a class="btn bg-btn-p d-flex justify-content-center text-light p-2 ">
+                <p>+ Tilføj filter </p>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<?php include "includes/nav.php"; ?>
 
 </body>
 </html>
