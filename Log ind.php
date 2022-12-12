@@ -30,7 +30,7 @@
 
 <section>
 	<div class="background-welcome">
-		<div class="row mx-3">
+		<div class="row justify-content-center mx-3">
 			<div class="col-12 text-center my-5 p-0">
 				<h1 class="fs-5">Hej igen.</h1>
 				<h2 class="fs-6">Lad os få styr på dit vandforbrug.</h2>
@@ -52,10 +52,34 @@
 				<div class="d-flex justify-content-end">
 					<a class="input-password">Glemt kodeord?</a>
 				</div>
+				<div class="d-flex justify-content-center py-5">
+					<button class="log-ind btn btn-primary w-100" type="submit">Log ind</button>
+				</div>
 			</div>
+
+			<div class="row justify-content-center p-0">
+				<div class="col-12 d-flex justify-content-center p-0">
+					<h6 class="m-0">Log ind med</h6>
+				</div>
+
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="col-4">
+						<img class="col-4" src="images/apple-logo.svg" alt="apple">
+					</div>
+					<div class="col-4">
+						<img src="images/google-logo.svg" alt="">
+					</div>
+					<div class="col-4">
+						<img src="images/fb-logo.svg" alt="">
+					</div>
+				</div>
+
 		</div>
 	</div>
 </section>
+
+
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
