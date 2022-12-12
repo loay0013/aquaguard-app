@@ -56,7 +56,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                nden du kan måle dit vandforbrug,
+                                inden du kan måle dit vandforbrug,
                                 skal du forbinde dit Aquaguard-filter
                                 til appen.
                             </div>
