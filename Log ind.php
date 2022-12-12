@@ -31,7 +31,7 @@
 <section>
 	<div class="background-welcome">
 		<div class="row mx-3">
-			<div class="col-12 text-center my-5">
+			<div class="col-12 text-center my-5 p-0">
 				<h1 class="fs-5">Hej igen.</h1>
 				<h2 class="fs-6">Lad os få styr på dit vandforbrug.</h2>
 			</div>
@@ -48,6 +48,7 @@
 						<label class="form-label" for="form2Example2"></label>
 					</div>
 				</form>
+
 				<div class="d-flex justify-content-end">
 					<a class="input-password">Glemt kodeord?</a>
 				</div>
