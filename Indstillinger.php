@@ -31,29 +31,37 @@
 <section class="background-welcome h-100">
 
     <div class="h-100 d-flex flex-column">
-        <div>
-            <a>
+        <div class="d-flex gap-3 flex-column mt-4">
+            <div class="d-flex justify-content-center">
+            <a class="bg-light rounded-3 d-flex flex-row w-95 p-3">
                 <img src="images/Icon%20awesome-users-cog.svg">
-                <p>Kontooplysninger </p>
+                <p class="text-dark ms-4">Kontooplysninger </p>
             </a>
-            <a>
+            </div>
+            <div class="d-flex justify-content-center">
+            <a class="bg-light rounded-3 d-flex flex-row w-95 p-3">
                 <img src="images/Icon%20ionic-ios-notifications.svg">
-                <p>Notifikationer</p>
+                <p class="text-dark ms-4">Notifikationer</p>
             </a>
-            <a>
+            </div>
+            <div class="d-flex justify-content-center">
+            <a class="bg-light rounded-3 d-flex flex-row w-95 p-3">
                 <img src="images/info-square-fill.svg">
-                <p>Vejledninger</p>
+                <p class="text-dark ms-4">Vejledninger</p>
             </a>
-            <a>
+            </div>
+            <div class="d-flex justify-content-center">
+            <a class="bg-light rounded-3 d-flex flex-row w-95 p-3">
                 <img src="images/moon-stars-fill.svg">
-                <p>Dark-mode</p>
+                <p class="text-dark ms-4">Dark-mode</p>
             </a>
+            </div>
         </div>
 
 
-        <div>
-            <a>
-                <p>Log ud</p>
+        <div class="d-flex justify-content-center mt-7">
+            <a class="bg-dark rounded-3 d-flex flex-row w-95 p-3 justify-content-center">
+                <p class="text-light ">Log ud</p>
             </a>
 
         </div>
@@ -65,6 +73,7 @@
 
 <?php include "includes/nav.php"; ?>
 
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>
