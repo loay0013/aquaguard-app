@@ -28,21 +28,38 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body class="h-100" >
 <section class="gx-3 background-welcome rounded-4 h-100">
+    <!--img Wifi-->
     <div class="d-flex justify-content-center align-items-center flex-column h-100 ">
         <div>
             <img class="mb-5" src="images/Wifi.svg"
         </div>
 
-        <div>
+        <!--btn Tilføj-->
 
-            <a class="btn bg-btn-p d-flex justify-content-center text-light p-2 ">
-                <p>+ Tilføj filter </p>
-            </a>
+        <a type="button" class="btn bg-btn-p d-flex justify-content-center text-light p-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <p class="text-light">+ Tilføj filter </p>
+        </a>
 
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="d-flex justify-content-end m-3">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                    Dit filter er tilføjet
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="Oversigt.php" type="button" class="btn btn-btn-p text-light">Okay</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="d-flex justify-content-center">
 
+        <!--Modal-->
+        <div class="d-flex justify-content-center">
             <!--Modal 1-->
             <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
@@ -165,7 +182,9 @@
     </div>
 
 </section>
+<!--nav-->
 <?php include "includes/nav.php"; ?>
+<!--bootstrap Script-->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
