@@ -24,8 +24,9 @@ ul, ol {
 li {
 	margin: 0;
 }
+
 a{
-	text-decoration: none;
+	text-decoration: none !important;
 
 }
 
@@ -44,8 +45,10 @@ img {
 
 .background-welcome {
 	width: 100%;
-	height: 736px;
+	height: 100%;
 	background-color: #F2F2F2;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .nav-link-1 {
@@ -134,5 +137,13 @@ img {
 	width: 25%;
 	height: 100%;
 	background-color:#195DA3;
+}
+
+.log-ind {
+	height: 50px;
+	background-color: #1A1A1A !important;
+	border: none !important;
+	border-radius: 12px !important;
+	font-weight: 400 !important;
 }
 

@@ -31,7 +31,7 @@
 <section>
 	<div class="background-welcome">
 		<div class="row justify-content-center mx-3">
-			<div class="col-12 text-center my-5 p-0">
+			<div class="col-12 text-center mt-5 p-0">
 				<h1 class="fs-5">Hej igen.</h1>
 				<h2 class="fs-6">Lad os få styr på dit vandforbrug.</h2>
 			</div>
@@ -62,17 +62,20 @@
 					<h6 class="m-0">Log ind med</h6>
 				</div>
 
-				<div class="d-flex justify-content-center align-items-center">
-					<div class="col-4">
-						<img class="col-4" src="images/apple-logo.svg" alt="apple">
+				<div class="d-flex justify-content-center pt-4 pb-5 px-0">
+					<div class="col-4 d-flex justify-content-center">
+						<img src="images/apple.svg" height="36" alt="apple">
 					</div>
-					<div class="col-4">
-						<img src="images/google-logo.svg" alt="">
+					<div class="col-4 d-flex justify-content-center">
+						<img src="images/google.svg" width="26" alt="google">
 					</div>
-					<div class="col-4">
-						<img src="images/fb-logo.svg" alt="">
+					<div class="col-4 d-flex justify-content-center">
+						<img src="images/fb.svg" height="30" width="30" alt="fb">
+					</div>
+				</div>
 
-					</div>
+				<div class="d-flex justify-content-center align-items-center">
+					<h6 class="m-0">Har du ikke en bruger <span><a href="#">Opret nu</a></span></h6>
 				</div>
 
 		</div>
