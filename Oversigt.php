@@ -26,7 +26,7 @@
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
-<body class="h-100">
+<body class="body-2">
 <!-- Her skal sidens indhold ligge -->
 <section class="background-welcome h-100 p-0 overflow-scroll">
     <div class="d-flex justify-content-end p-3">

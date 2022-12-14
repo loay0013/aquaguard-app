@@ -183,7 +183,7 @@
                 </div>
             </div>
             <!--btn Modal-->
-            <a class="bg-light rounded-3 d-flex flex-row w-95 p-3 mt-5" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+            <a class="bg-light border rounded-3 d-flex flex-row w-95 p-3 mt-5" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
                 <img src="images/info-square-fill.svg">
                 <p class="text-dark ms-4">Vejledninger</p>
             </a>
