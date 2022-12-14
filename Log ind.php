@@ -31,7 +31,7 @@
 <section>
 	<div class="background-welcome">
 		<div class="row justify-content-center mx-3">
-			<div class="col-12 text-center mt-5 p-0">
+			<div class="col-12 text-center my-5 p-0">
 				<h1 class="fs-5">Hej igen.</h1>
 				<h2 class="fs-6">Lad os få styr på dit vandforbrug.</h2>
 			</div>
@@ -52,7 +52,7 @@
 				<div class="d-flex justify-content-end">
 					<a class="input-password">Glemt kodeord?</a>
 				</div>
-				<div class="d-flex justify-content-center py-5">
+				<div class="d-flex justify-content-center py-5 mt-2">
 					<button class="log-ind btn btn-primary w-100" type="submit">Log ind</button>
 				</div>
 			</div>
@@ -62,7 +62,7 @@
 					<h6 class="m-0">Log ind med</h6>
 				</div>
 
-				<div class="d-flex justify-content-center pt-4 pb-5 px-0">
+				<div class="d-flex justify-content-center pt-5 pb-5 px-0">
 					<div class="col-4 d-flex justify-content-center">
 						<img src="images/apple.svg" height="36" alt="apple">
 					</div>
