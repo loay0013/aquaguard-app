@@ -81,9 +81,8 @@
 				</div>
 
 				<div class="d-flex justify-content-center align-items-center pb-5">
-					<h6 class="m-0">Har du ikke en bruger <span><a href="Opret%20bruger.php">Opret nu</a></span></h6>
+					<h6 class="m-0 fw-normal">Har du ikke en bruger? <span><a class="fw-semibold" href="Opret%20bruger.php">Opret nu</a></span></h6>
 				</div>
-
 		</div>
 	</div>
 </section>

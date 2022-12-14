@@ -99,7 +99,7 @@
 				</div>
 
 				<div class="d-flex justify-content-center align-items-center pb-5">
-					<h6 class="m-0 fs-6">Har du allerede en bruger? <span><a href="Log%20ind.php">Log ind</a></span></h6>
+					<h6 class="m-0 fs-6 fw-normal">Har du allerede en bruger? <span><a class="fw-semibold" href="Log%20ind.php">Log ind</a></span></h6>
 				</div>
 			</div>
 		</div>
