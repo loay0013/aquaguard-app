@@ -30,8 +30,14 @@
 
 <section>
 	<div class="background-welcome">
+		<a href="index.php">
+			<div class="d-flex justify-content-start p-3">
+				<img src="images/Group%208.svg">
+			</div>
+		</a>
+
 		<div class="row justify-content-center mx-3">
-			<div class="col-12 text-center my-5 p-0">
+			<div class="col-12 text-center mt-5 p-3">
 				<h1 class="fs-5">Hej igen.</h1>
 				<h2 class="fs-6">Lad os få styr på dit vandforbrug.</h2>
 			</div>
@@ -53,7 +59,7 @@
 					<a class="input-password">Glemt kodeord?</a>
 				</div>
 				<div class="d-flex justify-content-center py-5 mt-2">
-					<button class="log-ind btn btn-primary w-100" type="submit">Log ind</button>
+					<a href="Tilføj%20filter.php" class="d-flex justify-content-center align-items-center log-ind btn btn-primary w-100" type="submit">Log ind</a>
 				</div>
 			</div>
 
@@ -74,8 +80,8 @@
 					</div>
 				</div>
 
-				<div class="d-flex justify-content-center align-items-center">
-					<h6 class="m-0">Har du ikke en bruger <span><a href="#">Opret nu</a></span></h6>
+				<div class="d-flex justify-content-center align-items-center pb-5">
+					<h6 class="m-0">Har du ikke en bruger <span><a href="Opret%20bruger.php">Opret nu</a></span></h6>
 				</div>
 
 		</div>

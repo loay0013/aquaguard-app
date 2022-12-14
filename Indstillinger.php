@@ -192,7 +192,7 @@
 
 
         <div class="d-flex justify-content-center mt-7">
-            <a class="bg-dark rounded-3 d-flex flex-row w-95 p-3 justify-content-center">
+            <a href="index.php" class="bg-dark rounded-3 d-flex flex-row w-95 p-3 justify-content-center">
                 <p class="text-light ">Log ud</p>
             </a>
 

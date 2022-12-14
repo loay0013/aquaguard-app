@@ -77,7 +77,7 @@
 
 
 				<div class="d-flex justify-content-center mt-3 py-5">
-					<button class="opret-bruger btn btn-primary w-100" type="submit">Opret bruger</button>
+					<a class="opret-bruger d-flex align-items-center justify-content-center btn btn-primary w-100" href="Tilføj%20filter.php" type="submit">Opret bruger</a>
 				</div>
 			</div>
 
@@ -99,9 +99,8 @@
 				</div>
 
 				<div class="d-flex justify-content-center align-items-center pb-5">
-					<h6 class="m-0 fs-6">Har du allerede en bruger? <span><a href="#">Log ind</a></span></h6>
+					<h6 class="m-0 fs-6">Har du allerede en bruger? <span><a href="Log%20ind.php">Log ind</a></span></h6>
 				</div>
-
 			</div>
 		</div>
 </section>
