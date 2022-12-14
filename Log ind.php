@@ -38,8 +38,8 @@
 
 		<div class="row justify-content-center mx-3">
 			<div class="col-12 text-center mt-5 p-3">
-				<h1 class="fs-5">Hej igen.</h1>
-				<h2 class="fs-6">Lad os få styr på dit vandforbrug.</h2>
+				<h1>Hej igen.</h1>
+				<h2>Lad os få styr på dit vandforbrug.</h2>
 			</div>
 
 			<div class="col-12 p-0 d-flex flex-column align-content-center my-5">

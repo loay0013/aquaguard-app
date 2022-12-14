@@ -38,8 +38,8 @@
 
 		<div class="row justify-content-center mx-3">
 			<div class="col-12 text-center my-5 py-3">
-				<h1 class="fs-5">Opret bruger</h1>
-				<h2 class="fs-6">Kom i gang med appen.</h2>
+				<h1>Opret bruger</h1>
+				<h2>Kom i gang med appen.</h2>
 			</div>
 
 		<div class="col-6 ps-0">
