@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
-<html lang="da">
+<html class="h-100"  lang="da">
 
 <!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
@@ -26,9 +26,9 @@
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
-<body>
+<body class="h-100">
 
-<section>
+<section class="h-100">
 	<div class="background-welcome d-flex align-items-center justify-content-center">
 		<div class="row gap-5 mx-3 d-flex justify-content-center">
 			<div class="col-12 p-0">

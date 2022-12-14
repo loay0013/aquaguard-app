@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
-<html class="h-100" lang="da">
+<html lang="da">
 
 <!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
@@ -29,7 +29,7 @@
 <body class="h-100">
 
 <!-- Her skal sidens indhold ligge -->
-<section class="background-welcome h-100">
+<section class="background-welcome h-100 p-0">
 
     <div>
 
@@ -50,6 +50,8 @@
 
 </section>
 <?php include "includes/nav.php"; ?>
+<script src="js/active.js"></script>
+
 
 </body>
 </html>

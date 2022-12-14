@@ -76,6 +76,9 @@
                         <div class="modal-footer border-0 justify-content-center">
                             <button class="btn btn-btn-p d-flex text-light px-5" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Videre</button>
                         </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="images/modal-1.svg" alt="icon">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,6 +104,9 @@
                             <button class="btn btn-btn-p text-light" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Tilbage</button>
                             <button class="btn btn-btn-p text-light" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Videre</button>
                         </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="images/Modal-2.svg" alt="icon">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,6 +131,9 @@
                             <button class="btn btn-btn-p text-light" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Tilbage</button>
                             <button class="btn btn-btn-p text-light" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Videre</button>
                         </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="images/Modal-3.svg" alt="icon">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,6 +155,9 @@
                         </div>
                         <div class="modal-footer border-0 justify-content-center">
                             <button class="btn px-5 btn-btn-p text-light" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal">Kom i gang</button>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="images/Modal-4.svg" alt="icon">
                         </div>
                     </div>
                 </div>

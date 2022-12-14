@@ -30,6 +30,12 @@
 
 <section>
 	<div class="background-welcome">
+        <a href="index.php">
+        <div class="d-flex justify-content-start p-3">
+            <img src="images/Group%208.svg">
+        </div>
+        </a>
+
 		<div class="row justify-content-center mx-3">
 			<div class="col-12 text-center my-5 py-3">
 				<h1 class="fs-5">Opret bruger</h1>

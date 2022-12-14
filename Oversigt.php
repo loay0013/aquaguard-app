@@ -28,7 +28,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body class="h-100">
 <!-- Her skal sidens indhold ligge -->
-<section class="background-welcome h-100">
+<section class="background-welcome h-100 p-0 overflow-scroll">
     <div class="d-flex justify-content-end p-3">
         <img src="images/kl-icon.svg">
     </div>
@@ -103,8 +103,8 @@
 </section>
 
 <?php include "includes/nav.php"; ?>
-
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/active.js"></script>
 
 </body>
 </html>
