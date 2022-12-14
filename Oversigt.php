@@ -37,6 +37,10 @@
         <img src="images/vand-icon.svg">
     </div>
 
+	<div class="d-flex justify-content-center pb-5 pt-4">
+		<h5 class="fs-6 fw-medium">Dit daglige forbrug</h5>
+	</div>
+
     <div class="d-flex flex-row justify-content-center mt-3">
         <img class="me-4" src="images/arrow-left-square-fill.svg">
         <p>5. december 2022</p>
@@ -86,9 +90,9 @@
                 <p class="ms-5">Bruser</p>
             </div>
             <div class="d-flex flex-row gap-3">
-                <img src="images/faucet_bathroom.svg">
+                <img class="faucet" src="images/Faucet.svg" alt="faucet">
                 <div  class="bg-pr w-100 rounded-5 ">
-                <div class="percentage3 rounded-5">
+                <div class="d-flex justify-content-center align-items-center percentage3 rounded-5">
                     <p class="text-light text-center pt-1">25%</p>
                 </div>
                 </div>

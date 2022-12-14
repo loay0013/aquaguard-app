@@ -30,7 +30,7 @@
 <section class="gx-3 background-welcome rounded-4 h-100">
     <!--img Wifi-->
     <div class="d-flex justify-content-center align-items-center flex-column h-100 ">
-        <div>
+        <div class="d-flex flex-column justify-content-center">
             <img class="mb-5" src="images/Wifi.svg"
         </div>
 
@@ -69,7 +69,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            inden du kan måle dit vandforbrug,
+                            Inden du kan måle dit vandforbrug,
                             skal du forbinde dit Aquaguard-filter
                             til appen.
                         </div>
@@ -154,7 +154,7 @@
                             processen.
                         </div>
                         <div class="modal-footer border-0 justify-content-center">
-                            <button class="btn px-5 btn-btn-p text-light" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal">Kom i gang</button>
+                            <button class="btn px-5 btn-btn-p text-light"  data-bs-toggle="modal">Kom i gang</button>
                         </div>
                         <div class="d-flex justify-content-center mb-3">
                             <img src="images/Modal-4.svg" alt="icon">
@@ -183,10 +183,12 @@
                 </div>
             </div>
             <!--btn Modal-->
-            <a class="bg-light border rounded-3 d-flex flex-row w-95 p-3 mt-5" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
-                <img src="images/info-square-fill.svg">
-                <p class="text-dark ms-4">Vejledninger</p>
-            </a>
+			<div class="d-flex justify-content-center align-items-center">
+				<a class="bg-light border rounded-3 d-flex flex-row w-100 px-5 py-3 mt-5" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+					<img src="images/info-square-fill.svg">
+					<p class="text-dark ms-4">Vejledning</p>
+				</a>
+			</div>
         </div>
 
 

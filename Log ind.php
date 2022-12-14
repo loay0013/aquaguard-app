@@ -38,7 +38,7 @@
 
 		<div class="row justify-content-center mx-3">
 			<div class="col-12 text-center mt-5 p-3">
-				<h1>Hej igen.</h1>
+				<h1>Hej igen</h1>
 				<h2>Lad os få styr på dit vandforbrug.</h2>
 			</div>
 

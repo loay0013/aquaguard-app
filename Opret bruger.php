@@ -83,7 +83,7 @@
 
 			<div class="row justify-content-center p-0">
 				<div class="col-12 d-flex justify-content-center p-0">
-					<h6 class="m-0">Log ind med</h6>
+					<h6 class="m-0">Opret bruger med</h6>
 				</div>
 
 				<div class="d-flex justify-content-center pt-5 pb-5 px-0">

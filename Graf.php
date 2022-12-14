@@ -37,7 +37,7 @@
             <img src="images/kl-icon.svg">
         </div>
         <div class="mt-5">
-            <p class="text-center mb-3">Dit årlig forbrug</p>
+            <p class="text-center mb-3 fw-medium">Dit månedlige forbrug</p>
         </div>
 
         <div class="d-flex justify-content-center">
