@@ -50,7 +50,6 @@
 
 </section>
 <?php include "includes/nav.php"; ?>
-<script src="js/active.js"></script>
 
 
 </body>
