@@ -59,7 +59,7 @@
 					<a class="input-password">Glemt kodeord?</a>
 				</div>
 				<div class="d-flex justify-content-center py-5 mt-2">
-					<a href="Tilføj%20filter.php" class="d-flex justify-content-center align-items-center log-ind btn btn-primary w-100" type="submit">Log ind</a>
+					<a href="Oversigt.php" class="d-flex justify-content-center align-items-center log-ind btn btn-primary w-100" type="submit">Log ind</a>
 				</div>
 			</div>
 
