@@ -194,7 +194,6 @@
 
     </div>
 
-
 </section>
 
 <nav class="bg-nav-p  position-fixed bottom-0 w-100 rounded-bottom  ">

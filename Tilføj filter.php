@@ -36,7 +36,7 @@
 
         <!--btn Tilføj-->
 
-        <a type="button" class="btn bg-btn-p d-flex justify-content-center text-light p-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <a type="button" class="btn bg-btn-p d-flex justify-content-center text-light p-2" data-bs-toggle="modal" data-bs-target="#exampleModalToggle5">
             <p class="text-light">+ Tilføj filter </p>
         </a>
 
