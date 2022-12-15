@@ -62,7 +62,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                inden du kan måle dit vandforbrug,
+                                Inden du kan måle dit vandforbrug,
                                 skal du forbinde dit Aquaguard-filter
                                 til appen.
                             </div>
@@ -147,7 +147,7 @@
                                 processen.
                             </div>
                             <div class="modal-footer border-0 justify-content-center">
-                                <button class="btn px-5 btn-btn-p text-light" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal">Kom i gang</button>
+                                <button class="btn px-5 btn-btn-p text-light" data-bs-toggle="modal">Kom i gang</button>
                             </div>
                             <div class="d-flex justify-content-center mb-3">
                                 <img src="images/Modal-4.svg" alt="icon">
